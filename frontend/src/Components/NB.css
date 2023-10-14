@@ -1,0 +1,97 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.card-body{
+    box-shadow: 0px 0px 15px -4px black;
+    border-radius: 19px;
+    border: none;
+    outline: none;
+}
+.card{
+    width: 60vw;
+    margin: 15px;
+    border: none;
+    min-height: 150px;
+}
+/* .card a{
+    color: white;
+    background-color: #5052c4;
+    padding: 10px;
+    margin-top: 55px;
+    border-radius: 35px;
+} */
+.card p{
+    margin-bottom: 25px;
+}
+
+.form{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 60vw;
+    flex-flow: column;
+    border-radius: 25px;
+    padding: 35px;
+}
+.form{
+    margin-top: 15px;
+}
+.ck-editor{
+    width: 80%;
+
+}
+.ck.ck-editor {
+
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+}
+.ck-editor__editable_inline{
+    
+    min-height: 150px
+}
+.form input{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+
+}
+.form textarea{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form button{
+    color: white;
+    background-color: #5052c4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.NoticeTitle{
+    font-size: larger;
+    font-weight: 700;
+    
+}
+
+.NoticeDate{
+    margin: 0 0px 5px 6px;
+}
+.AlertCloseButton{
+    /* padding: 5px; */
+    background-color: green;
+    color: white;
+    font-size: small;
+    font-weight: 700;
+
+}
